@@ -1,0 +1,180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+header {
+    background-color: #fafafa;
+    padding: 4rem 0;
+    border: 2px solid red;
+}
+
+.logo-container {
+    width: max-content;
+    margin: 0 auto 2rem auto;
+}
+
+.header-content {
+    display: flex;
+    gap: 3rem;
+    text-align: center;
+}
+.img-left {
+    flex: 1;
+}
+
+.img-left img {
+    display: block;
+    width: 85%;
+    margin-right: auto;
+}
+
+.img-right {
+    flex: 1;
+}
+.img-right img {
+    display: block;
+    width: 85%;
+    margin-left: auto;
+}
+
+.mid-content {
+    align-self: center;
+    max-width: 20%;
+    /* margin-top: -6rem; */
+}
+
+.heading-primary {
+    font-size: 4rem;
+    font-weight: 900;
+    color: #2e2e2e;
+    line-height: 1.2;
+    margin-bottom: 0.8rem;
+}
+
+.header-text {
+    font-size: 1rem;
+    color: #888;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding: 0 1.2rem;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.btn {
+    padding: 1.2rem 2.2rem;
+    border-radius: 2rem;
+    font-weight: 600;
+    border: none;
+    font-size: 1rem;
+    color: white;
+}
+
+.btn--download {
+    background-color: #4d96a8;
+    cursor: pointer;
+}
+.btn--download:hover {
+    background-color: #6fb3c4;
+}
+
+.btn--download-span {
+    color: #90e4f3;
+}
+
+.btn--what {
+    background-color: #845eb0;
+}
+
+/* ***** */
+/* MAIN  */
+/* ***** */
+
+main {
+    background-color: #fafafa;
+    padding: 5rem 0;
+}
+
+.circle-num {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    width: 3.8rem;
+    height: 3.8rem;
+    border-radius: 50%;
+    color: #777;
+    font-weight: 800;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.stick {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-100%);
+    width: 2px;
+    height: 5rem;
+    background-color: #ddd;
+
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+    max-width: 70rem;
+    margin: 0 auto;
+    padding: 4rem 0;
+    gap: 1rem;
+}
+
+.gallery div {
+    flex: 1;
+    border-radius: 0.7rem;
+}
+
+.gallery img {
+    width: 100%;
+}
+
+.main-content {
+    text-align: center;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+.main-subheader {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #4d96a8;
+    font-weight: 900;
+    font-size: 1rem;
+    margin-bottom: 0.8rem;
+}
+.main-heading {
+    font-size: 2.6rem;
+    font-weight: 800;
+    padding: 0 8rem;
+    margin-bottom: 2rem;
+    line-height: 0.9;
+}
+.main-text {
+    font-size: 1.1rem;
+    color: #888;
+    padding: 0 9rem;
+    line-height: 1;
+}

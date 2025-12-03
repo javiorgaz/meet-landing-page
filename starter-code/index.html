@@ -1,31 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./assets/favicon-32x32.png"
+        />
+        <link rel="stylesheet" href="styles.css" />
+        <title>Frontend Mentor | Meet landing page</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo-container">
+                <img class="logo" src="assets/logo.svg" alt="" />
+            </div>
+            <div class="header-content">
+                <div class="img-left">
+                    <img src="assets/desktop/image-hero-left.png" alt="" />
+                </div>
+                <div class="mid-content">
+                    <h1 class="heading-primary">Group chat for <br> Everyone</h1>
+                    <p class="header-text">
+                        Meet makes it easy to connect with others face-to-face
+                        virtually and collaborate across any device
+                    </p>
+                    <div class="btns-container">
+                        <button class="btn btn--download">
+                            Download <span class="btn--download-span">v1.3</span>
+                        </button>
+                        <button class="btn btn--what">What is it?</button>
+                    </div>
+                </div>
+                <div class="img-right">
+                    <img src="assets/desktop/image-hero-right.png" alt="" />
+                </div>
+            </div>
+        </header>
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Meet landing page</title>
-</head>
-<body>
-  Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
+        <main>
 
-  Download v1.3
-  What is it?
-
-  01
-  Built for modern use
-
-  Smarter meetings, all in one place
-
-  Send messages, share files, show your screen, and record your meetings — all in one 
-  workspace. Control who can join with invite-only team access, data encryption, and data export.
-
-  02
-  Experience more together
-  Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-
-  Download v1.3
-</body>
-</html>
+            <div class="circle-num">01<span class="stick"></span></div>
+            
+            <div class="gallery">
+                <div>
+                    <img class="gallery-img" src="assets/desktop/image-men-in-meeting.jpg" alt="">
+                </div>
+                <div>
+                    <img class="gallery-img" src="assets/desktop/image-woman-in-videocall.jpg" alt="">
+                </div>
+                <div>
+                    <img class="gallery-img" src="assets/desktop/image-women-videochatting.jpg" alt="">
+                </div>
+                <div>
+                    <img class="gallery-img" src="assets/desktop/image-man-texting.jpg" alt="">
+                </div>
+            </div>
+            
+            <div class="main-content">
+                <p class="main-subheader">Built for modern use</p>
+                <h2 class="main-heading">Smarter meetings, all in one place</h2>
+                <p class="main-text">Send messages, share files, show your screen, and record your meetings - all in one workspace. Control who can join with invite-only team access, data encryption, and data export</p>
+            </div>
+            
+        </main>
+        <div class="circle-num">01<span class="stick"></span></div>
+        <footer>
+            <div class="footer-container">
+                <p>Experience more together</p>
+                <p>Stay connected with reliable HD mettings</p>
+            </div>
+        </footer>
+        
+    </body>
+    </html>
+    
